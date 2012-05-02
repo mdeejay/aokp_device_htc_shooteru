@@ -56,13 +56,13 @@ ro.telephony.default_network=0
 ro.ril.set.mtu1472=1
 
 # For HSDPA low throughput
-ro.ril.disable.power.collapse=1
+ro.ril.disable.power.collapse=0
 
 # For China NEL
 ro.ril.enable.prl.recognition=1
 
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=120
+wifi.supplicant_scan_interval=30
 
 # density in DPI of the LCD of this board. This is used to scale the UI
 # appropriately. If this property is not defined, the default value is 160 dpi.
