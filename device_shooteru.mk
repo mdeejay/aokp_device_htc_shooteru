@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
 # Torch
 PRODUCT_PACKAGES += \
     Torch \
+    Music \
     Stk
 
 ## The gps config appropriate for this device
